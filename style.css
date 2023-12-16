@@ -1,0 +1,75 @@
+body {
+  height: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background: url(images/background.png);
+  background-size: cover;
+}
+.container {
+  width: 80%;
+  border: 2px transparent solid;
+  background-color: transparent;
+  border-radius: 50px;
+  padding: 10%;
+  scroll-behavior: smooth;
+}
+button {
+  width: auto;
+  height: auto;
+  margin: 3%;
+  padding: 2%;
+  border-radius: 20%;
+  transition: 0.3s;
+}
+.add-task-search-bar {
+  width: 80%;
+  padding: 3%;
+  border: solid 2px green;
+  border-radius: 50px;
+}
+.add-task button {
+  border: 2px solid green;
+}
+.add-task button:hover {
+  cursor: pointer;
+  background-color: green;
+  color: white;
+}
+.check-mark-task-done {
+  border: 2px solid #eec759;
+}
+.check-mark-task-done:hover {
+  cursor: pointer;
+  background-color: #eec759;
+  color: white;
+}
+.trash-can-task-cancel {
+  border: 2px solid darkred;
+}
+.trash-can-task-cancel:hover {
+  cursor: pointer;
+  color: white;
+  background-color: darkred;
+}
+.task-displayer {
+  padding: 5%;
+}
+.task {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 2;
+  font-family: "Anybody", sans-serif;
+  margin-top: 5%;
+}
+.completed-task {
+  text-decoration: line-through;
+}
+.deleted-task {
+  display: none;
+}
+li {
+  display: inline-block;
+}
